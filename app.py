@@ -1,5 +1,8 @@
 import streamlit as st
 
+# Set the layout to wide mode
+st.set_page_config(layout="wide")
+
 # Define the layout
 st.title('Kenlyn Butler - Digital Resume')
 
