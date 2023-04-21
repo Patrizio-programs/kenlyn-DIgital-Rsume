@@ -25,9 +25,9 @@ st.image("https://i.ibb.co/HHf7pss/profile-pic-2.png", width=300)
 # Define the layout
 st.title('Kenlyn Butler-Medley - Digital CV')
 
+st.header('Personal Information')
 # Personal Information
 col1, col2 = st.columns(2)
-st.header('Personal Information')
 
 with col1:
   st.text('Name:')
@@ -41,9 +41,9 @@ with col2:
   st.text('Redemption sharps, Kingstown, ST. Vincent')
   st.text('Married')
 
+st.header('Contact Information')
 # Contact Information
 col1, col2 = st.columns(2)
-st.header('Contact Information')
 
 with col1:
   st.text('Cell Phone:')
