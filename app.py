@@ -4,17 +4,22 @@ import streamlit as st
 st.set_page_config(page_title="Kenlyn| Digital CV",
                    page_icon=":guardsman:",
                    layout="wide",
-                   initial_sidebar_state="expanded")
+                   initial_sidebar_state="collapsed")
 
 st.markdown("""
     <style>
     body {
-        background-color: #ADD8E6;
+        background-color: #FFFFFF;
+        color: #000000;
     }
+    
+    </style>
+     <style>
+    #MainMenu {visibility: hidden;}
+    footer {visibility: hidden;}
     </style>
     """,
             unsafe_allow_html=True)
-
 st.image("https://i.ibb.co/HHf7pss/profile-pic-2.png", width=300)
 
 # Define the layout
