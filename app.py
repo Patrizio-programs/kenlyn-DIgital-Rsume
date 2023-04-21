@@ -4,9 +4,10 @@ import streamlit as st
 st.title('Kenlyn Butler - Digital Resume')
 
 # Personal Information
-col1, col2 = st.beta_columns(2)
+col1, col2 = st.columns(2)
+ st.header('Personal Information')
+
 with col1:
-    st.header('Personal Information')
     st.text('Name:')
     st.text('Date of Birth:')
     st.text('Address:')
@@ -19,9 +20,10 @@ with col2:
     st.text('Married')
 
 # Contact Information
-col1, col2 = st.beta_columns(2)
-with col1:
+col1, col2 = st.columns(2)
     st.header('Contact Information')
+
+with col1:
     st.text('Cell Phone:')
     st.text('Work Phone:')
     st.text('Email Address:')
