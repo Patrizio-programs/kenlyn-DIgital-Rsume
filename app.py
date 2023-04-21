@@ -23,7 +23,7 @@ st.markdown("""
 st.image("https://i.ibb.co/HHf7pss/profile-pic-2.png", width=300)
 
 # Define the layout
-st.title('Kenlyn Butler - Digital CV')
+st.title('Kenlyn Butler-Medley - Digital CV')
 
 # Personal Information
 col1, col2 = st.columns(2)
@@ -36,7 +36,7 @@ with col1:
   st.text('Marital Status:')
 with col2:
 
-  st.text('Kenlyn Butler')
+  st.text('Kenlyn Butler-Medley')
   st.text('January 19th, 1993')
   st.text('Redemption sharps, Kingstown, ST. Vincent')
   st.text('Married')
