@@ -1,10 +1,24 @@
 import streamlit as st
 
 # Set the layout to wide mode
-st.set_page_config(layout="wide")
+st.set_page_config(page_title="Kenlyn| Digital CV",
+                   page_icon=":guardsman:",
+                   layout="wide",
+                   initial_sidebar_state="expanded")
+
+st.markdown("""
+    <style>
+    body {
+        background-color: #ADD8E6;
+    }
+    </style>
+    """,
+            unsafe_allow_html=True)
+
+st.image("https://i.ibb.co/HHf7pss/profile-pic-2.png", width=300)
 
 # Define the layout
-st.title('Kenlyn Butler - Digital Resume')
+st.title('Kenlyn Butler - Digital CV')
 
 # Personal Information
 col1, col2 = st.columns(2)
